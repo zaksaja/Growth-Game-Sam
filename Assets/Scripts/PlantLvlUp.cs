@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class PlantLvlUp : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
+    //object collision triggers growth anim.
 
-    // Update is called once per frame
-    void Update()
+    public GameObject growth;
+    private void OnTriggerEnter2D(Collider2D other)
     {
         
+        GameObject g = Instantiate(growth) as GameObject;
+        g.transform.position = transform.position; 
+        Destroy(this.gameObject);
+        
+
     }
+    
 }

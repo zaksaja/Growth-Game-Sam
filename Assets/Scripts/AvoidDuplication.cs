@@ -18,8 +18,16 @@ public class AvoidDuplication : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if(transform.position.x < screenBounds.x * 2){
+        if(transform.position.y < screenBounds.x){
             Destroy(this.gameObject);
         }
+
+        
+    }
+    
+    //when makes contact with the pot, the leaf will be destroyed
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Destroy(this.gameObject);
     }
 }

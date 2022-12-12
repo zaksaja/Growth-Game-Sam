@@ -27,11 +27,8 @@ public class PotMove : MonoBehaviour
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
     }
+	
 
-	private void OnTriggerEnter2D(Collider 2D collider){
-		Debug.Log("Trigger");
-
-	}
     
 	
 
