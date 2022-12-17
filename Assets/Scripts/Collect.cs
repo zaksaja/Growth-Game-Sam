@@ -33,17 +33,14 @@ using UnityEngine.SceneManagement;
         
    	 }
 	
-	public void Update()
+	/*public void Update()
 	{
 		if (leaf >= 10){
 			SceneManager.LoadScene("End");
 		}
-		else
-		{
-			SceneManager.LoadScene("Retry");
-		}
+		
 	}
-	
+	*/
 	
 
 }
