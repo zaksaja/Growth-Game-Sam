@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5801748466604275637}
   m_Layer: 0
   m_Name: leaf (1)
-  m_TagString: Untagged
+  m_TagString: Healthy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,6 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e8c6f709bc147c7a88c3deb682ed32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &8105246573649304856
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,7 +148,7 @@ GameObject:
   - component: {fileID: 6828388841852642863}
   m_Layer: 0
   m_Name: leaf1
-  m_TagString: Untagged
+  m_TagString: Healthy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

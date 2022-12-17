@@ -344,10 +344,11 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/AvoidDuplication.cs"
 "Assets/Scripts/Collect.cs"
-"Assets/Scripts/Destroy.cs"
 "Assets/Scripts/Generator.cs"
 "Assets/Scripts/PlantLvlUp.cs"
 "Assets/Scripts/PotMove.cs"
+"Assets/Scripts/SceneBegin.cs"
+"Assets/Scripts/Timer.cs"
 -langversion:9.0
 
 /deterministic
